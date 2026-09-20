@@ -2,112 +2,361 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>利用規約</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>こい名刺｜ふたりの価値観を共有するLINEサービス</title>
+<meta name="description" content="こい名刺は、交際中・結婚を前提として知り合ったふたりのための、自己開示と価値観共有をLINEで進められる無料サービスです。">
+
+<!-- OGP（公開時は og:url / og:image を絶対URLに差し替えてください） -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="こい名刺｜ふたりの価値観を共有するLINEサービス">
+<meta property="og:description" content="質問に答えるだけで、お互いの価値観を自然に共有。交際中・結婚を前提としたふたりのためのLINEサービスです。">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="app-header">
-  <h1>利用規約</h1>
-  <p class="app-header__updated">最終更新日：2026年7月12日</p>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="logo" href="#top">こい名刺</a>
+    <nav class="gnav" aria-label="ページ内メニュー">
+      <a href="#feature">特徴</a>
+      <a href="#menu">使い方</a>
+      <a href="#questions">質問のイメージ</a>
+      <a href="#faq">よくある質問</a>
+    </nav>
+    <a class="line-btn line-btn--sm" href="https://lin.ee/7uzaacf"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
+  </div>
 </header>
 
-<main>
+<main id="top">
 
-  <section class="lead">
-    <p>本利用規約（以下「本規約」といいます。）は、LINE公式アカウント「こい名刺（恋活・婚活用アプリ）」（以下、本オフィシャルアカウント）上で提供するサービス（以下,「本サービス」といいます。）の利用条件を定めるものです。</p>
-    <p>本サービスを利用することにより、利用者は本規約に同意したものとみなします。</p>
+  <!-- ヒーロー -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__body">
+        <p class="hero__tag">無料・LINEで完結</p>
+        <h1 class="hero__title">
+          <span class="ph">ふたりの価値観を、</span>
+          <span class="ph">もっと共有</span><span class="ph">してみませんか？</span>
+        </h1>
+        <p class="hero__lead">
+          こい名刺は、交際中・結婚を前提として知り合ったふたりのための、自己開示と価値観共有をLINEで気軽に進められるサービスです。
+        </p>
+        <ul class="hero__themes" aria-label="扱うテーマ">
+          <li>自己開示</li>
+          <li>自分史</li>
+          <li>価値観共有</li>
+          <li>ライフスタイル</li>
+        </ul>
+
+        <div class="hero__cta">
+          <div class="hero__cta-btn">
+            <a class="line-btn line-btn--lg" href="https://lin.ee/7uzaacf"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
+            <p class="note">※LINEアプリが開きます</p>
+          </div>
+          <div class="qr">
+            <img src="https://qr-official.line.me/gs/M_073rmncg_BW.png?oat__id=7173600&oat_content=qr" alt="友だち追加用のQRコード" width="112" height="112">
+            <p>スマホで読み取る</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="arch">
+          <img src="assets/hero-couple.webp" alt="手をつないで向かい合う、ふたりのシルエット" width="1000" height="1000">
+        </div>
+      </div>
+    </div>
   </section>
 
-  <article class="clause">
-    <h2><span class="clause__number">第1条</span>（本サービス）</h2>
-    <p>本サービスは、交際中又は結婚を前提として知り合った当事者同士が、お互いの価値観や生活習慣、考え方等を共有し、相互理解を深めることを目的とした婚活支援サービスです。</p>
-    <p>本サービスは、利用者同士のマッチング、出会いの提供、異性紹介、利用者間の交流の場の提供を目的とするものではありません。</p>
-    <p>また、利用者が第三者を検索、募集、紹介又は連絡する機能は提供していません。</p>
-  </article>
+  <p class="notice">
+    すでに知り合っているふたりのためのサービスです。新しい出会いの提供やマッチングは行っていません。
+  </p>
 
-  <article class="clause">
-    <h2><span class="clause__number">第2条</span>（サービスの利用範囲）</h2>
-    <p>利用者は、本サービスが既に知り合っている当事者間での相互理解及び自己開示を支援する目的で提供されるものであることを理解し、この目的の範囲内で利用するものとします。</p>
-    <p>利用者は、本サービスを次の目的で利用してはなりません。</p>
-    <ul>
-      <li>新たな交際相手又は結婚相手を募集する目的</li>
-      <li>不特定又は多数の者との出会いを求める目的</li>
-      <li>出会い系サービス又はマッチングサービスとして利用する目的</li>
-      <li>その他、運営者が本サービスの目的に反すると判断する目的</li>
-    </ul>
-  </article>
+  <!-- お悩み -->
+  <section class="worries" id="feature">
+    <div class="wrap">
+      <h2 class="sec-title">こんなこと、ありませんか？</h2>
+      <ul class="bubbles">
+        <li class="bubble bubble--l">結婚について話すきっかけが、つかめない</li>
+        <li class="bubble bubble--r">相手の価値観を、もっと知りたい</li>
+        <li class="bubble bubble--l">重い話は、いきなりしたくない</li>
+        <li class="bubble bubble--r">相手がどう考えているのか、意外と知らない</li>
+      </ul>
+      <p class="worries__answer">質問に答えるだけで、話すきっかけができます。</p>
+    </div>
+  </section>
 
-  <article class="clause">
-    <h2><span class="clause__number">第3条</span>（利用者の責任）</h2>
-    <p>利用者は、自らの責任において本サービスを利用するものとします。</p>
-    <p>入力した内容については、利用者本人が責任を負うものとします。</p>
-  </article>
+  <!-- LINEの流れ -->
+  <section class="flow">
+    <div class="wrap">
+      <h2 class="sec-title">LINEだから、気軽に続けられる</h2>
+      <p class="sec-lead">メニューから選んで答えて、LINEでリンクを送るだけ。<br class="pc">お互いの価値観を自然に共有でき、会話のきっかけが増えます。</p>
 
-  <article class="clause">
-    <h2><span class="clause__number">第4条</span>（共有機能）</h2>
-    <p>利用者は、自らの意思により回答内容を共有することができます。</p>
-    <p>共有後に閲覧者が回答内容を保存、転載又は第三者へ伝達した場合について、運営者は責任を負いません。</p>
-  </article>
+      <ol class="flow__list">
+        <li class="flow__item">
+          <p class="flow__label"><span class="flow__no">1</span>メニューから選ぶ</p>
+          <div class="phone" aria-hidden="true">
+            <div class="phone__bar">こい名刺</div>
+            <div class="phone__screen phone__screen--menu">
+              <div class="msg msg--in">
+                <span class="msg__ava"></span>
+                <div class="msg__body"><p>気になるコンテンツを、下のメニューから選んでください</p></div>
+              </div>
+              <div class="mini-menu">
+                <div class="mini-menu__tabs"><span class="is-on">プレ交際</span><span>真剣交際</span></div>
+                <div class="mini-menu__grid">
+                  <span class="is-pick">自己開示<br>Part1</span>
+                  <span>自己開示<br>Part2</span>
+                  <span>自己開示<br>Part3</span>
+                  <span class="wide">婚活プロフィール</span>
+                  <span class="wide">価値観すり合わせ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="flow__item">
+          <p class="flow__label"><span class="flow__no">2</span>アプリ画面で回答</p>
+          <div class="phone phone--app" aria-hidden="true">
+            <div class="phone__bar">自己開示 Part1</div>
+            <div class="phone__screen">
+              <p class="app-q">Q. 意見が食い違ったときはどうしたいですか？ </p>
+              <div class="app-area">その日のうちに話し合いたい </div>
+              <span class="msg__btn msg__btn--wide">回答を保存</span>
+            </div>
+          </div>
+        </li>
+        <li class="flow__item">
+          <p class="flow__label"><span class="flow__no">3</span>LINEでリンクを共有</p>
+          <div class="phone" aria-hidden="true">
+            <div class="phone__bar">パートナー</div>
+            <div class="phone__screen">
+              <div class="msg msg--out">
+                <div class="msg__body"><p>私の回答はこちら！</p></div>
+              </div>
+              <div class="msg msg--out">
+                <div class="link-card">
+                  <p class="link-card__title">自己開示 Part1</p>
+                  <p class="link-card__text">回答を見る</p>
+                  <p class="link-card__url">回答ページのリンク</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="flow__item">
+          <p class="flow__label"><span class="flow__no">4</span>会話が広がる</p>
+          <div class="phone" aria-hidden="true">
+            <div class="phone__bar">パートナー</div>
+            <div class="phone__screen">
+              <div class="msg msg--in">
+                <span class="msg__ava"></span>
+                <div class="msg__body"><p>見たよ！喧嘩になったときは早めに話すの大事だよね！</p></div>
+              </div>
+              <div class="msg msg--out">
+                <div class="msg__body msg__body--pink"><p>お互い我慢せずに話し合おう！</p></div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ol>
+      <p class="caption">※画面はイメージです。</p>
+    </div>
+  </section>
 
-  <article class="clause">
-    <h2><span class="clause__number">第5条</span>（禁止事項）</h2>
-    <p>利用者は、次の行為を行ってはなりません。</p>
-    <ul>
-      <li>法令又は公序良俗に反する行為</li>
-      <li>他人になりすまして利用する行為</li>
-      <li>他者の権利又は利益を侵害する行為</li>
-      <li>本サービスの運営を妨害する行為</li>
-      <li>システムへ不正アクセスする行為</li>
-      <li>本サービスの不具合を悪用する行為</li>
-      <li>その他、運営者が不適切と判断する行為</li>
-    </ul>
-  </article>
+  <!-- メニュー -->
+  <section class="menu" id="menu">
+    <div class="wrap menu__inner">
+      <div class="menu__shot">
+        <img src="assets/line-menu.webp" alt="LINEトーク画面下部のメニュー。プレ交際と真剣交際を切り替え、自己開示、婚活プロフィール、価値観すり合わせを選べる" width="700" height="1219" loading="lazy">
+      </div>
+      <div class="menu__body">
+        <h2 class="sec-title sec-title--left"><span class="ph">メニューから、</span><span class="ph">すぐ始められる</span></h2>
+        <p class="sec-lead sec-lead--left">交際の段階に合わせて「プレ交際」「真剣交際」の2つのメニューを切り替えられます。</p>
+        <dl class="menu__list">
+          <div>
+            <dt>自己開示 Part1〜3</dt>
+            <dd>質問に答えながら、自分のことを少しずつ整理して伝えられます。</dd>
+          </div>
+          <div>
+            <dt>婚活プロフィール</dt>
+            <dd>基本的な情報や希望をひとつにまとめておけます。</dd>
+          </div>
+          <div>
+            <dt>価値観すり合わせ</dt>
+            <dd>お互いの回答を見比べて、共通点や違いを話すきっかけに。</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
 
-  <article class="clause">
-    <h2><span class="clause__number">第6条</span>（知的財産権）</h2>
-    <p>本サービスに関するプログラム、デザイン、文章その他一切の知的財産権は、運営者又は正当な権利者に帰属します。</p>
-  </article>
+  <!-- Part1-3 -->
+  <section class="steps">
+    <div class="wrap">
+      <h2 class="sec-title">3つのステップで、少しずつ深く知れる</h2>
+      <div class="stairs">
+        <article class="stair stair--1">
+          <p class="stair__part">Part 1</p>
+          <h3 class="stair__title">気軽に知る</h3>
+          <p>まずはライトな質問から。趣味や休日の過ごし方など、楽しく答えられる内容です。</p>
+        </article>
+        <article class="stair stair--2">
+          <p class="stair__part">Part 2</p>
+          <h3 class="stair__title">将来を考える</h3>
+          <p>結婚後の暮らし方やお金のこと、家族観など、将来を考えるきっかけになる質問です。</p>
+        </article>
+        <article class="stair stair--3">
+          <p class="stair__part">Part 3</p>
+          <h3 class="stair__title">価値観を深める</h3>
+          <p>人生観やパートナーシップなど、ちょっと踏み込んだ価値観を共有して理解を深めます。</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-  <article class="clause">
-    <h2><span class="clause__number">第7条</span>（サービス内容の変更等）</h2>
-    <p>運営者は、利用者への事前通知なく、本サービスの内容を変更、追加、中断又は終了することがあります。</p>
-  </article>
+  <!-- 質問イメージ -->
+  <section class="questions" id="questions">
+    <div class="wrap">
+      <h2 class="sec-title">質問のイメージ</h2>
+      <p class="sec-lead">自由に書く質問も、順位をつける質問も、選ぶだけの質問もあります。</p>
 
-  <article class="clause">
-    <h2><span class="clause__number">第8条</span>（免責事項）</h2>
-    <p>運営者は、本サービスの継続性、完全性、正確性又は特定目的への適合性について保証するものではありません。</p>
-    <p>運営者は、本サービスの利用又は利用不能により生じた損害について、運営者に故意又は重大な過失がある場合を除き、責任を負いません。</p>
-    <p>利用者間又は第三者との間で生じた紛争については、利用者自身の責任で解決するものとします。</p>
-  </article>
+      <div class="qgrid">
+        <article class="q">
+          <h3 class="q__text">5年後までに、個人的にしたいことはありますか？</h3>
+          <div class="q__area" aria-hidden="true"></div>
+          <p class="q__type">自由記述</p>
+        </article>
 
-  <article class="clause">
-    <h2><span class="clause__number">第9条</span>（個人情報の取扱い）</h2>
-    <p>利用者情報の取扱いについては、別途定めるプライバシーポリシーによるものとします。</p>
-  </article>
+        <article class="q">
+          <h3 class="q__text">これだけは苦手、または受け付けないという言動はありますか？</h3>
+          <div class="q__area" aria-hidden="true"></div>
+          <p class="q__type">自由記述</p>
+        </article>
 
-  <article class="clause">
-    <h2><span class="clause__number">第10条</span>（規約の変更）</h2>
-    <p>運営者は、本規約を必要に応じて変更することがあります。</p>
-    <p>変更後の規約は、本サービス上で公表した時点から効力を生じます。</p>
-  </article>
+        <article class="q">
+          <h3 class="q__text">パートナーからなんて褒められるのが嬉しいですか？ 嬉しい順に選んでください。</h3>
+          <ul class="rank" aria-hidden="true">
+            <li class="rank__item is-on"><span class="rank__no">1</span>気が利く、思いやりがある</li>
+            <li class="rank__item is-on"><span class="rank__no">2</span>優しい</li>
+            <li class="rank__item is-on"><span class="rank__no">3</span>おもしろい</li>
+            <li class="rank__item"><span class="rank__no"></span>お店選びや買い物のセンスがいい</li>
+          </ul>
+          <p class="q__type">タップした順番が順位になります</p>
+        </article>
 
-  <article class="clause">
-    <h2><span class="clause__number">第11条</span>（準拠法・管轄）</h2>
-    <p>本規約は日本法に準拠します。</p>
-    <p>本サービスに関して紛争が生じた場合は、運営者の所在地を管轄する裁判所を第一審の専属的合意管轄裁判所とします。</p>
-  </article>
+        <article class="q">
+          <h3 class="q__text">雑談LINEは、どのくらいの頻度でやりとりしたいですか？</h3>
+          <ul class="radio" aria-hidden="true">
+            <li class="radio__item"><span class="radio__dot"></span>返信は6時間以内がいい</li>
+            <li class="radio__item is-on"><span class="radio__dot"></span>返信は24時間以内がいい</li>
+            <li class="radio__item"><span class="radio__dot"></span>返信は3日以内でいい</li>
+            <li class="radio__item"><span class="radio__dot"></span>返信はあってもなくてもいい</li>
+          </ul>
+          <p class="q__type">選択式</p>
+        </article>
+      </div>
+      <p class="caption">※質問と画面はイメージです。実際の内容とは異なる場合があります。</p>
+    </div>
+  </section>
 
-  <article class="clause">
-    <h2><span class="clause__number">第12条</span>（お問い合わせ）</h2>
-    <p>本サービスに関するお問い合わせは、運営者が別途定める方法により受け付けます。</p>
-  </article>
+  <!-- 安心 -->
+  <section class="safety">
+    <div class="wrap">
+      <h2 class="sec-title">共有するのは、自分で選んだ相手だけ</h2>
+      <ul class="safety__list">
+        <li>
+          <h3>回答は端末側で暗号化</h3>
+          <p>婚活プロフィールや自己開示などの回答は、利用者の端末側で暗号化して保存されます。運営者は暗号化されたデータのみを保持し、内容を閲覧することはできません。</p>
+        </li>
+        <li>
+          <h3>取得する情報は最小限</h3>
+          <p>LINEの表示名・プロフィール画像・友だち情報・トーク内容などは取得しません。LINEのユーザーIDはハッシュ化して保存します。</p>
+        </li>
+        <li>
+          <h3>共有は自分の意思で</h3>
+          <p>回答後にできるリンクを、見せたい相手にLINEで送ることで共有します。送る相手は自分で選べます。</p>
+        </li>
+      </ul>
+      <p class="safety__note">サービス改善のため、婚活プロフィールを除く一部の回答を、個人を特定できない形で統計として集計・分析することがあります。詳しくは<a href="https://marriagesketch-privacypolicy.tomorrow-sketch-52.workers.dev/">プライバシーポリシー</a>をご確認ください。</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="wrap wrap--narrow">
+      <h2 class="sec-title">よくある質問</h2>
+      <details class="faq__item">
+        <summary>料金はかかりますか？</summary>
+        <p>無料でご利用いただけます。</p>
+      </details>
+      <details class="faq__item">
+        <summary>回答は相手とどうやって共有しますか？</summary>
+        <p>メニューからコンテンツを選んで回答したあと、回答のリンクをLINEで相手に送ることで共有できます。</p>
+      </details>
+      <details class="faq__item">
+        <summary>新しい相手と出会えますか？</summary>
+        <p>いいえ。こい名刺は、すでに知り合っているふたりの相互理解を支援するサービスです。出会いの提供やマッチング、異性の紹介は行っていません。</p>
+      </details>
+      <details class="faq__item">
+        <summary>回答を運営者に見られることはありますか？</summary>
+        <p>共有用の回答は端末側で暗号化して保存され、運営者は内容を復元・閲覧できない設計です。詳しくはプライバシーポリシーをご確認ください。</p>
+      </details>
+      <details class="faq__item">
+        <summary>回答を修正したいときは？</summary>
+        <p>同じLINEアカウントから再度回答すると、以前の回答が更新され、最新の内容が保存されます。</p>
+      </details>
+      <details class="faq__item">
+        <summary>通知が多いと感じたら？</summary>
+        <p>こい名刺のトーク画面の設定から、「通知」をOFFにできます。</p>
+      </details>
+      <details class="faq__item">
+        <summary>情報の削除やお問い合わせはどこから？</summary>
+        <p><a href="https://forms.gle/JcLjFyWkSUf8Dqj28">お問い合わせフォーム</a>から受け付けています。</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- 最終CTA -->
+  <section class="final">
+    <div class="final__inner">
+      <img class="final__art" src="assets/silhouette.webp" alt="" width="1200" height="800" loading="lazy">
+      <div class="final__body">
+        <h2 class="final__title">ふたりの未来を、<br class="sp">もっと素敵に。</h2>
+        <p class="final__lead">価値観を知ることから、理想のパートナーシップは始まります。</p>
+        <div class="final__cta">
+          <div>
+            <a class="line-btn line-btn--lg" href="https://lin.ee/7uzaacf"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
+            <p class="note">無料ではじめられます</p>
+          </div>
+          <div class="qr">
+            <img src="https://qr-official.line.me/gs/M_073rmncg_GW.png?oat__id=7173600&amp;oat_content=qr" alt="友だち追加用のQRコード" width="112" height="112" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </main>
 
-<footer class="page-footer">
-  <p>本利用規約は日本法に準拠します。</p>
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <p class="site-footer__logo">こい名刺</p>
+    <nav class="site-footer__nav" aria-label="フッターメニュー">
+      <a href="https://marriagesketch-termsofuse.tomorrow-sketch-52.workers.dev/">利用規約</a>
+      <a href="https://marriagesketch-privacypolicy.tomorrow-sketch-52.workers.dev/">プライバシーポリシー</a>
+      <a href="https://forms.gle/JcLjFyWkSUf8Dqj28">お問い合わせ</a>
+    </nav>
+    <p class="site-footer__note">※本サービスは、すでに知り合っている交際中・結婚を前提としたふたりを支援するサービスです。マッチングを目的としたものではありません。</p>
+    <!-- TODO: 運営者名・連絡先を追記 -->
+    <p class="site-footer__copy">&copy; こい名刺</p>
+  </div>
 </footer>
 
 </body>
